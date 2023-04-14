@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "serve": "next start",
+    "build": "next build && next export",
+    "serve": "next --openssl-legacy-provider start",
     "export": "next export",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "next": "^10.0.5",
