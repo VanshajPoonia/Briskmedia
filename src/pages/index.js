@@ -16,8 +16,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Startup agency landing template"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Brisk Media"
+          description="Media agency dealing with Content Writing, Publication, Digital artworks, Music production and Film-making"
         />
         <Banner />
         <Services />
