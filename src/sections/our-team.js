@@ -18,37 +18,33 @@ SwiperCore.use([Navigation, Pagination]);
 const data = [
   {
     id: 1,
-    avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    avatar: avatar2,
+    name: 'Alexia Corser',
+    designation: 'Editor',
     socialLinks: [
       {
         name: 'twitter',
-        link: 'http://twitter.com',
+        link: 'https://twitter.com',
       },
       {
         name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
+        link: 'https://github.com',
       },
     ],
   },
   {
     id: 2,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
+    avatar: avatar1,
+    name: 'Vanshaj Poonia',
+    designation: 'Chief Operations Officer',
     socialLinks: [
       {
         name: 'twitter',
-        link: 'http://twitter.com',
+        link: 'https://twitter.com/VanshajPoonia',
       },
       {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
+        name: 'github',
+        link: 'https://github.com/VanshajPoonia',
       },
     ],
   },

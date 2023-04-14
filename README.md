@@ -1,1 +1,1 @@
-This is the reposiroty of website of Brisk media
+This is the repository of website of Brisk media

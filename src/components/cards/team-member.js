@@ -21,13 +21,6 @@ const TeamMember = ({ member }) => {
               {social?.name === 'github' && (
                 <FaGithub size="18px" color="#161614" />
               )}
-              {social?.name === 'dribbble' && (
-                <FaDribbble
-                  size="18px"
-                  color="#B2215A"
-                  style={{ backgroundColor: '#E74D89', borderRadius: 20 }}
-                />
-              )}
             </Link>
           ))}
         </Box>
